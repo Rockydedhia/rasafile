@@ -1,0 +1,268 @@
+<html>
+<head>
+    <title>Chatbot Widget</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500&display=swap" rel="stylesheet">
+
+    <!--Import Font Awesome Icon Font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+    <!--Import materialize.css-->
+    <link rel="stylesheet" type="text/css" href="materialize.min.css">
+
+    <!--Main css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Restart button -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Mike Button -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Volumne Button -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="floating.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+
+<body>
+
+  <div class="area" >
+
+
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+
+
+
+    <div class="container">
+
+
+
+        <!--chatbot widget -->
+        <div class="widget" id="test-popup">
+
+
+            <div class="chat_header" style="background-color:#0088FF;"id="chat_head">
+
+<!-- <h1 style="text-align:center;">Centered Heading</h1> -->
+
+                <img src="logo.png" alt="vbot.svg" title="Virtibot" height="50px"  style="float:left">
+
+                <!--Add the name of the bot here -->
+                <span class="chat_header_title"style="color: #FFFF00;font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;text-align: center;font-family: 'Baloo Tamma', cursive;
+  text-shadow: -1px -1px 10px; margin-top:-1px; margin-left:28px;font-size: 35px;bottom:10px;"></span>
+
+                <!-- <p>VirtiBot</p> -->
+
+                      <!-- <span class="name" style="float:center;">Example</span> -->
+
+
+                <div id="btn-close" aria-label="Hide the chat window" class="bpw-header-icon bpw-header-icon-close"><i><svg height="15"fill="white" viewBox="0 0 95 95" xmlns="http://www.w3.org/2000/svg"><g><path xmlns="http://www.w3.org/2000/svg" d="M62.819,47.97l32.533-32.534c0.781-0.781,0.781-2.047,0-2.828L83.333,0.586C82.958,0.211,82.448,0,81.919,0   c-0.53,0-1.039,0.211-1.414,0.586L47.97,33.121L15.435,0.586c-0.75-0.75-2.078-0.75-2.828,0L0.587,12.608   c-0.781,0.781-0.781,2.047,0,2.828L33.121,47.97L0.587,80.504c-0.781,0.781-0.781,2.047,0,2.828l12.02,12.021   c0.375,0.375,0.884,0.586,1.414,0.586c0.53,0,1.039-0.211,1.414-0.586L47.97,62.818l32.535,32.535   c0.375,0.375,0.884,0.586,1.414,0.586c0.529,0,1.039-0.211,1.414-0.586l12.02-12.021c0.781-0.781,0.781-2.048,0-2.828L62.819,47.97   z"></path></g></svg></i></div>
+                 <div id="btn-restart" class="bpw-header-icon bpw-header-icon-restart" svg height="15" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <i class="fa fa-refresh" style="margin-right: 5px;font-size:18px;color:white"></i></div>
+<!-- <button type="button" class="volume" id="volume" style="font-size:18px" onTap="change_me()" > <i class="fa fa-volume-up" style="font-size:18px;color:red"></i></button> -->
+
+                <input type="checkbox" name="un-mute" id="un-mute" >
+                    <label for="un-mute" class="unmute" >
+
+                      <!-- <img src="https://img.icons8.com/ios-filled/50/ffffff/low-volume.png"/> -->
+                        <img src="    https://img.icons8.com/ios-filled/50/ffffff/mute--v1.png" alt="Mute_Icon.svg" title="Mute icon" height="20px" width="35" style="float:right;margin-left:15px;margin-top:-1px;">
+                    </label>
+                    <label for="un-mute" class="mute" >
+                        <img src="https://img.icons8.com/ios-filled/50/ffffff/low-volume.png" alt="Speaker_Icon.svg" title="Unmute/speaker icon" width="35" height="20px"style="float:right;margin-left:15px;margin-top:-8px;">
+                    </label>
+
+
+
+
+<!--
+                    <div class="container">
+
+                      <div class="dropdown">
+                        <button type="button" style="margin-top:-10px;background-color: #4CAF50; margin-left: 70px;size:10px;width:40px;height:20px;" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Link 1</a>
+                          <a class="dropdown-item" href="#">Link 2</a>
+                          <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                      </div>
+                    </div> -->
+
+
+
+        </div>
+
+            <!--Chatbot contents goes here -->
+            <!--Background Image tag -->
+            <li class="log col-xs-12 power">
+                                    <span class="col-xs-4 col-xs-offset-4 powered-by"><a href="" target="_blank" class="ui-link"><b>Chatbot</b> ⚡ <b>VirtiBot</b></a>
+                                    </span>
+                                </li>
+
+
+
+            <div class="chats" id="chats" style="background-color: white;background-size: contain;">
+                <div class="clearfix"></div>
+
+            </div>
+
+
+
+            <!--keypad for user to type the message -->
+            <div class="keypad">
+
+
+
+              <div class="fab">
+                <div class="trigger"><span>+</span></div>
+                <div class="actions">
+                  <div class="action">
+                    <a  href="https://www.instagram.com/goistats/?hl=en" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"/>
+                  </a>
+                    <div class="tooltip"> Follow Us On Instagram</div>
+                  </div>
+                  <div class="action">
+                    <a  href="https://www.facebook.com/GoIStats/?modal=admin_todo_tour" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/facebook.png"/>
+                  </a>
+                    <div class="tooltip"> Follow Us On Facebook</div>
+                  </div>
+                  <div class="action">
+                    <a  href="https://twitter.com/GoIStats?s=08" target="_blank">
+                    <img src="https://img.icons8.com/color/48/000000/twitter-squared.png"/>
+                  </a>
+                    <div class="tooltip"> Follow Us On Twitter</div>
+                  </div>
+                  <div class="action">
+                    <a  href="https://www.youtube.com/channel/UCPl7MHrCGtFIIZ3EabV5IOA" target="_blank">
+                    <img src="https://img.icons8.com/fluent/48/000000/youtube-play.png"/>
+                  </a>
+                  <div class="tooltip">  Follow Us On Youtube </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+                        <!-- <input type="text" id "search" placeholder="" name=""> -->
+          <textarea id="userInput" placeholder="" style="resize: none" class="usrInput"></textarea>
+                          <div id="sendButton"><i class="fa fa-paper-plane" style="font-size:20px;margin-left:10px;margin-top:4.1px;"aria-hidden="true"></i></div>
+
+                           <div id="mike-btn" class="mike"style="  border: 2px solid red;
+                             padding: 5px;
+                             border-radius: 25px;
+                             margin-right: -10px;
+                             margin-top: -2px;
+                            ">
+                               <i class="fa fa-microphone" style="font-size:23px;color:darkblue;margin-top:6px;"></i></div>
+                         <!-- <input type=button id="mike-btn" style="right:60px;height:30px;width:20px"> <i class="fa fa-microphone" aria-hidden="true" style="font-size:24px;color:red;position:absolute;float:right;right: 60px;top: 10px;" svg height="15" viewBox="0 0 512 512" ></i></input> -->
+
+                      </div>
+                  </div>
+
+
+        <!--bot profile-->
+
+          <div class="profile_div" id="profile_div">
+              <img class="imgProfile"  src="https://media1.tenor.com/images/4a25b0e0380a2d5ae6b69cc18c284c3a/tenor.gif?itemid=10123191" alt="description of gif" />
+              <!-- <div id="icon">
+                <div id="not"></div>
+              </div> -->
+          </div>
+
+
+
+
+
+        <!-- Bot pop-up intro -->
+        <div class="tap-target" data-target="profile_div">
+            <div class="tap-target-content">
+                <h5 class="white-text">VirtiBot at your Service</h5>
+                <p class="white-text">hey, This is virtiBot. How can i help you.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="static/js/materialize.min.js"></script>
+
+    <!--Main Script -->
+
+    <script type="text/javascript" src="1script.js"></script>
+    <script type="text/javascript" src="mainscript.js"></script>
+<!--    <script type="text/javascript" src="scr.js"></script>&ndash;&gt;-->
+    <!--Chart.js Script -->
+    <script type="text/javascript" src="static/js/chart.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.14.1/moment.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.js" integrity="sha512-6jYd74hwloeB8HwKDIiUM3juIyZOCyPTrfJbEUlueTxNPjSjcQZr9DkO6P8xVRFuPYN6YitDunNKgxUwFfIixQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css"><!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
+    <link rel="stylesheet" type="text/css" href="static/date.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+
+  var typed = new Typed('#userInput',{
+  strings:[
+    'What are natural assets?',
+    'Requirements of application',
+    'How can I contact You !'
+
+  ],
+
+  typeSpeed: 60,
+  backSpeed: 60,
+  attr:'placeholder',
+  bindInputFocusEvents:true,
+  loop:true
+});
+</script>
+
+
+
+</body>
+
+</html>
